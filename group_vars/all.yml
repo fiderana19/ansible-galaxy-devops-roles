@@ -1,0 +1,8 @@
+---
+ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+ntp_timezone: "Europe/Paris"
+security_autoupdate_enabled: true
+security_ssh_port: 22
+docker_users: ["vagrant"]
+base_firewall_allowed_tcp_ports:
+  - "22"

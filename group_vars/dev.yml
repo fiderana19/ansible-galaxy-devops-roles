@@ -1,0 +1,7 @@
+---
+env_label: "development"
+is_production: false
+security_sudoers_passwordless: ["vagrant"]
+app_debug_mode: true
+common_db_password: "dev_password_123"
+grafana_admin_password: "admin"
