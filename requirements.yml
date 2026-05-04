@@ -1,0 +1,20 @@
+---
+# --- SYSTEM & SECURITY ---
+- src: geerlingguy.security
+- src: geerlingguy.firewall
+- src: geerlingguy.ntp
+
+# --- CONTAINERS ---
+- src: geerlingguy.docker
+
+# --- WEB SERVERS ---
+- src: geerlingguy.nginx
+- src: geerlingguy.certbot
+
+# --- DATABASES ---
+- src: geerlingguy.postgresql
+- src: geerlingguy.mysql
+
+# --- MONITORING ---
+- src: cloudalchemy.prometheus
+- src: cloudalchemy.grafana
