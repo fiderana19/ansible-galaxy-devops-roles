@@ -1,0 +1,6 @@
+---
+- name: Setup Database Server
+  hosts: db_servers
+  become: yes
+  roles:
+    - { role: geerlingguy.postgresql }

@@ -1,0 +1,7 @@
+---
+- name: Setup Web Server
+  hosts: web_servers
+  become: yes
+  roles:
+    - { role: geerlingguy.docker }
+    - { role: geerlingguy.nginx }

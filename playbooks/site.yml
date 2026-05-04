@@ -1,0 +1,4 @@
+---
+- import_playbook: playbooks/web_setup.yml
+- import_playbook: playbooks/db_setup.yml
+- import_playbook: playbooks/monitoring_setup.yml

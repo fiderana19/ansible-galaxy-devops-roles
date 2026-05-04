@@ -1,0 +1,7 @@
+---
+- name: Setup Monitoring Stack
+  hosts: monitoring_servers
+  become: yes
+  roles:
+    - { role: cloudalchemy.prometheus }
+    - { role: cloudalchemy.grafana }
